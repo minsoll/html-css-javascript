@@ -1,5 +1,16 @@
-h1 {      
-  padding:10px;
-  background-color:#222;
-  color:#fff;
+#container {
+  width: 600px;
+  margin: 20px auto;
+  border: 1px solid gainsboro;
+}
+
+h1 {
+  display: inline-block;
+  background-color: blue;
+  color: aliceblue;
+}
+
+.accent {
+  font-weight: bold;
+  color: red;
 }
