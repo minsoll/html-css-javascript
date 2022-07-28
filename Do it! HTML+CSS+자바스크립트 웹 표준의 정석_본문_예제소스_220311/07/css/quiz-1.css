@@ -1,0 +1,19 @@
+.container {
+	width:500px;
+	padding:10px;
+	border:1px solid #ccc;
+}
+.subject {
+	font-weight:700;
+	font-size:larger;
+}
+
+ul {
+    list-style: none;
+    line-height: 2;
+}
+
+.subject {
+    color: red;
+}
+
