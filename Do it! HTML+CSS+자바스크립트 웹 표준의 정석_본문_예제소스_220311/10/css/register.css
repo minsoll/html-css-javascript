@@ -45,3 +45,19 @@ body {
 	margin: auto;
 	padding: 7px 25px;
 }
+
+#signup label {
+	float: left;
+	font-size: 13px;
+	width: 110px;
+}
+
+
+
+#signup input[required] {
+	border: 1px solid red;
+}
+#signup input[readonly]{
+	border:none;
+}
+
