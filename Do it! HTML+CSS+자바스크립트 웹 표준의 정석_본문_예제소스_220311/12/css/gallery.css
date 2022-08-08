@@ -1,0 +1,45 @@
+body {
+  background-color: #eee;
+  font-size: 16px;
+}
+#wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit , minmax(320px ,1fr));
+ grid-template-areas: 
+ "card1 card1 card1 card1"
+  "card2 . card3 card5"
+  "card2 cad6 card7 car8"
+}
+.card1 {
+  background-color: blue;
+  grid-area: card1;
+}
+.card2 {
+  background-color: rgb(92, 41, 46);
+  grid-area: card2;
+}
+.card3 {
+  background-color: rgb(114, 32, 115);
+  grid-area: card3;
+}
+.card4 {
+  background-color: rgb(34, 142, 53);
+  grid-area: card4;
+}
+.card5 {
+  background-color: rgb(111, 169, 31);
+  grid-area: card5;
+}
+.card6 {
+  background-color: rgb(54, 109, 125);
+  grid-area: card5;
+}
+.card7 {
+  background-color: blue;
+  grid-area: card7;
+}
+
+.card8 {
+  background-color: blue;
+  grid-area: card8;
+}
